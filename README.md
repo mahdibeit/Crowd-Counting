@@ -1,4 +1,4 @@
-# # Crowd Counting with Transfer Learning-based Models and Perceptual Loss Function
+# # Crowd Counting with Perceptual Loss Function
 
 ## Pipeline
 ![Pipeline](/image/model.jpg)
