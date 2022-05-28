@@ -1,28 +1,15 @@
 # # Crowd Counting with Perceptual Loss Function
 
 ## Pipeline
-![Pipeline](/image/model.jpg)
+![System](/image/Crowd.jpg)
 
 ## Abstract
 Single-image crowd counting is a challenging task, mainly due to the difficulty stems from the huge scale variation of people, severe occlusions among dense crowds, and limited samples in the available dataset. This project aims to develop, analyze, and evaluate methods that can accurately estimate the crowd count from a single image-based and generate the density map of images. To this end, we propose novel ideas in three main parts of preprocessing, model architectures, and loss function of our deep learning pipeline. More specifically, we utilize transfer learning methods by using pre-trained depth and image models to develop depth-guided attention models and VGG-based U-Net architecture to address the limited number of samples in the dataset and increase the accuracy. Further, we systematically analyze the effect of loss functions on the performance of deep learning models and show that the typical loss functions used in research that are based on pixel-wise similarities are defective in high dense crowds. In this regard, we propose a novel perceptual loss function based on a pre-trained autoencoder. Further, for comparison, we successfully implement and systematically analyze the recent works and methods for crowd counting estimation and highlight the gaps and future direction for improvements. Our implementation results on the ShanghaiTech dataset outperform many previous works and show the effectiveness of our novel methods. 
 
-## Outputs
-<p float="left">
-  <img src="/image/OUT1.png" width="500" />
-  <img src="/image/OUT2.png" width="500" /> 
-</p>
-<p float="left">
-  <img src="/image/IMG_45.png" width="500" />
-  <img src="/image/IMG_45.jpg" width="500" /> 
-</p>
+## Model
 
-## valuated and Tested Model Architectures
-<p align="center">
-  <img src="/image/ev.JPG" /> 
-</p>
+![Pipeline](/image/model.jpg)
 
-## AE and MSE on the ShanghaiTech A datasets
-![Results](/image/res.JPG)
 
 ## Installation
 
